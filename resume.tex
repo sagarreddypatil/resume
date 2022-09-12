@@ -31,6 +31,9 @@
 % \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 % \usepackage[T1]{fontenc}
 
+\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -162,6 +165,24 @@
 \resumeSubHeadingListEnd
 
 
+%----------- SKILLS -----------
+
+\section{Skills}
+\vspace{2pt}
+\resumeSubHeadingListStart
+\small{\item{
+              \textbf{Programming: }{Python, Java, C\#, C/C++, Dart, HTML/CSS, Javascript, SQL} \\ \vspace{3pt}
+
+              \textbf{Technologies: }{PyTorch, OpenCV, React, Electron, Express, Flask, .NET, Unity3D, Postgres, CMake, PlatformIO, Arduino} \\ \vspace{3pt}
+
+              % \textbf{Frameworks}{: X, X, X} \\
+              % \textbf{Developer Tools}{: X, X, X} \\
+              % \textbf{Libraries}{: X, X, X} \\
+              % \textbf{Applications}{: X, X, X}
+        }}
+\resumeSubHeadingListEnd
+
+
 %----------- WORK EXPERIENCE -----------
 
 \section{Work Experience}
@@ -205,17 +226,42 @@
 {Purdue Space Program Liquids}{Purdue University}
 {Avionics Engineer}{Since Fall 2021}
 \resumeItemListStart
-\resumeItem{Developed flight software and peripheral drivers for Purdue's first liquid-fueled rocket}
+\resumeItem{Developed flight software on embedded systems for Purdue's first liquid-fueled rocket}
 \resumeItem{Wrote low-level drivers for Flash, ADCs, etc., and worked with protocols such as SPI, I$^2$C and UART}
 \resumeItem{Designing a live telemetry system for our upcoming rocket set to reach 65,000 feet}
-\resumeItem{Performing frequency-domain link budget simulations using NEC2, Ansys HFSS, and a custom Python library}
+\resumeItem{Performing frequency-domain RF simulations using NEC2, Ansys HFSS, and a custom Python library}
 \resumeItem{Utilized Microsoft Visio for system-level planning, and KiCAD/Altium Designer to design PCBs}
 
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 
+%----------- PROJECTS -----------
 
+\section{Projects}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{sagarpatil.me} $|$ \emph{\href{https://github.com/sagarreddypatil/portfolio-website}{\color{blue}github.com/sagarreddypatil/portfolio-website}}}{}
+\resumeItemListStart
+\resumeItem{Portfolio website implemented in vanilla HTML/CSS without any frameworks}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Marching Cubes} $|$ \emph{\href{https://github.com/sagarreddypatil/Marching-Cubes-Unity}{\color{blue}github.com/sagarreddypatil/Marching-Cubes-Unity}}}{}
+\resumeItemListStart
+\resumeItem{Implemented the Marching Cubes algorithm in Unity3D to mesh implicit surfaces}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{NLP Chatbot} $|$ \emph{\href{https://github.com/sagarreddypatil/nlp-chatbot}{\color{blue}github.com/sagarreddypatil/nlp-chatbot}}}{}
+\resumeItemListStart
+\resumeItem{A Large Language model prompting project for conversation purposes}
+\resumeItem{Interfaced with the Discord API to allow for chatbot interaction}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
 
 %----------- AWARDS & ACHIEVEMENTS -----------
 
@@ -228,46 +274,6 @@
         }}
 \resumeSubHeadingListEnd
 
-
-
-%----------- SKILLS -----------
-
-\section{Skills}
-\vspace{2pt}
-\resumeSubHeadingListStart
-\small{\item{
-              \textbf{Programming: }{Python, Java, C\#, C/C++, Dart, HTML/CSS, Javascript, SQL} \\ \vspace{3pt}
-
-              \textbf{Technologies: }{PyTorch, TensorFlow, OpenCV, Matplotlib, Node, React, Vue, Express, Electron, .NET, Flask, Postgres, Unity3D, Arduino} \\ \vspace{3pt}
-
-              % \textbf{Frameworks}{: X, X, X} \\
-              % \textbf{Developer Tools}{: X, X, X} \\
-              % \textbf{Libraries}{: X, X, X} \\
-              % \textbf{Applications}{: X, X, X}
-        }}
-\resumeSubHeadingListEnd
-
-%----------- PROJECTS -----------
-
-\section{Projects}
-\vspace{3pt}
-\resumeSubHeadingListStart
-
-\resumeProjectHeading
-{\textbf{sagarpatil.me} $|$ \emph{\href{https://github.com/sagarreddypatil/portfolio-website}{\color{blue}GitHub}}}{}
-\resumeItemListStart
-\resumeItem{Portfolio website implemented in vanilla HTML/CSS without any frameworks}
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\textbf{NLP Chatbot} $|$ \emph{\href{https://github.com/sagarreddypatil/nlp-chatbot}{\color{blue}GitHub}}}{}
-\resumeItemListStart
-\resumeItem{A Large Language model prompting project for conversation purposes}
-\resumeItem{Interfaced with the Discord API to allow for chatbot interaction}
-\resumeItemListEnd
-
-
-\resumeSubHeadingListEnd
 
 
 %-------------------------------------------
