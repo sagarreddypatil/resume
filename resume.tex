@@ -1,0 +1,274 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+% \usepackage{FiraMono}
+% \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+% \usepackage[T1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+  \textbf{\Huge \scshape Sagar Patil} \\ \vspace{3pt}
+  \small
+  US Citizen
+  $|$
+  \faMobile \hspace{.5pt} 848-219-1953
+  $|$
+  \faAt \hspace{.5pt} sagarreddypatil@gmail.com
+  $|$
+  \faGithub \hspace{.5pt} \href{https://www.github.com/sagarreddypatil}{github.com/sagarreddypatil}
+  $|$
+  \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/patilsr}{linkedin.com/in/patilsr}
+  \\ % $|$
+  \faGlobe \hspace{.5pt} \href{https://sagarpatil.me}{sagarpatil.me}
+  % $|$
+  % \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Bogazici+University+North+Campus/@41.0863067,29.0441352,15z/data=!4m5!3m4!1s0x0:0x9d2497b07c8edb2f!8m2!3d41.0863067!4d29.0441352}{Istanbul, Turkey}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Purdue University}{West Lafayette, IN}
+{B.Sc. in Computer Science}{Class of 2025}
+
+\resumeSubHeadingListEnd
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Ansys Government Initatives (AGI)}{Exton, PA}
+{Software Engineering Intern}{Summer 2022}
+\resumeItemListStart
+\resumeItem{Performed bug fixes and feature improvements on STK's C++ codebase}
+\resumeItem{Implemented a framework for easier development of Unit Tests using GTest}
+\resumeItem{Implemented new RF propagation standards for STK's Communication and Radar component}
+\resumeItemListEnd
+
+
+\resumeSubheading
+{Bloomberg LP}{New York, NY}
+{Analog Design Engineering Intern}{Summer 2019}
+\resumeItemListStart
+\resumeItem{Worked on an internal web application to manage NLP model training}
+\resumeItem{Utilized NodeJS, React, Python with Flask, and the Git Version Control System}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Extracurriculars}
+\vspace{3pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{ACM Special Interest Group on AI (SIGAI)}{Purdue University}
+{Software Developer}{Since Fall 2021}
+\resumeItemListStart
+\resumeItem{Developed a simulation for the 2021 VEX Robotics Game in Unity}
+\resumeItem{Leveraged Proximal Policy Optimization based Reinforcement Learning to solve the game}
+\resumeItem{Helped develop computer vision-based models to detect game objects}
+\resumeItem{Utilized ONNX to convert PyTorch models to run on a Jetson Nano processor}
+\resumeItemListEnd
+
+\resumeSubheading
+{Purdue Space Program Liquids}{Purdue University}
+{Avionics Engineer}{Since Fall 2021}
+\resumeItemListStart
+\resumeItem{Developed flight software and peripheral drivers for Purdue's first liquid-fueled rocket}
+\resumeItem{Wrote low-level drivers for Flash, ADCs, etc., and worked with protocols such as SPI, I$^2$C and UART}
+\resumeItem{Designing a live telemetry system for our upcoming rocket set to reach 65,000 feet}
+\resumeItem{Performing frequency-domain link budget simulations using NEC2, Ansys HFSS, and a custom Python library}
+\resumeItem{Utilized Microsoft Visio for system-level planning, and KiCAD/Altium Designer to design PCBs}
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+\vspace{2pt}
+\resumeSubHeadingListStart
+\small{\item{
+              \textbf{President's Volunteer Service Award Gold}{ Awarded for completeting more than 250 hours of volunteer service.}
+              \textbf{Affectiva EMPath Makethon Winner}{ Created a Large Language Model-powered chatbot that considers emotions detected by Affectiva's Human Perception AI} \\ \vspace{3pt}
+        }}
+\resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+\vspace{2pt}
+\resumeSubHeadingListStart
+\small{\item{
+              \textbf{Programming: }{Python, Java, C\#, C/C++, Dart, HTML/CSS, Javascript, SQL} \\ \vspace{3pt}
+
+              \textbf{Technologies: }{PyTorch, TensorFlow, OpenCV, Matplotlib, Node, React, Vue, Express, Electron, .NET, Flask, Postgres, Unity3D, Arduino} \\ \vspace{3pt}
+
+              % \textbf{Frameworks}{: X, X, X} \\
+              % \textbf{Developer Tools}{: X, X, X} \\
+              % \textbf{Libraries}{: X, X, X} \\
+              % \textbf{Applications}{: X, X, X}
+        }}
+\resumeSubHeadingListEnd
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{sagarpatil.me} $|$ \emph{\href{https://github.com/sagarreddypatil/portfolio-website}{\color{blue}GitHub}}}{}
+\resumeItemListStart
+\resumeItem{Portfolio website implemented in vanilla HTML/CSS without any frameworks}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{NLP Chatbot} $|$ \emph{\href{https://github.com/sagarreddypatil/nlp-chatbot}{\color{blue}GitHub}}}{}
+\resumeItemListStart
+\resumeItem{A Large Language model prompting project for conversation purposes}
+\resumeItem{Interfaced with the Discord API to allow for chatbot interaction}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
